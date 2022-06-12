@@ -1,0 +1,65 @@
+.red{
+    color: red;
+}
+
+.heads{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: black;
+    z-index: 1000;
+    margin-top: 0px;
+}
+
+.contents {
+    margin-top: 0px;
+}
+
+body {
+    background: url('bg1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.text-color-1 {
+    color: rgba(255,255,255,0.8)
+}
+.text-color-2 {
+    color: rgba(255,255,255,0.6)
+}
+
+.thumb-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+}
+.thumb-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+}
+
+.releases-position{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+}
+
+.releases-position1 {
+    position: relative;
+    padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+}
